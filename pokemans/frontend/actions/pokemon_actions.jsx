@@ -19,7 +19,7 @@ export const receiveOnePokemon = ({items, pokemon}) => {
   type: RECEIVE_ONE_POKEMON,
   pokemon: pokemon,
   items: items
-  })
+  });
 };
 
 export const requestOnePokemon = (id) => dispatch => (
