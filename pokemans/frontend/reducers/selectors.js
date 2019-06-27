@@ -1,8 +1,11 @@
 
 
-const selectAllPokemon = state => (
-  Object.values(state.entities.pokemon)
-);
+const selectAllPokemon = state => {
+  // debugger;
+  return ( 
+    Object.values(state.entities.pokemon)
+  )
+  };
 
 
 export default selectAllPokemon;
