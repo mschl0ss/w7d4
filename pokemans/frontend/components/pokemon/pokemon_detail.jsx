@@ -1,11 +1,17 @@
 import React from 'react';
 
-const PokemonDetail = (props) => {
-debugger
 
-  return (
-    <h1>fat arrow</h1>
-  )
+class PokemonDetail extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render () {
+
+    return (
+      <h1>beautiful arrow, jerk</h1>
+    )
+  }
 }
 
 export default PokemonDetail;
